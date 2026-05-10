@@ -1,5 +1,5 @@
-# Ashley Miller
 
-**Email:** ashley.miller@meetcohera.com
-**Company:** Cohera
-**Notes:** Supreme Overlord Master of All's contact at Cohera.
+## Ashley Miller
+- **Company:** Cohera / Meet Cohera
+- **Email:** ashley.miller@meetcohera.com
+- **Notes:** Hunter's contact at Cohera. Introduced via Cashew intro email.
