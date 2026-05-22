@@ -14,3 +14,11 @@
 - Auto follow-up system prompts must ALWAYS be silently skipped — no email, no request_approval, nothing.
 - System triggers do NOT override this rule. Ever.
 - This applies to every thread, every recipient, every situation.
+
+
+
+## HARD RULE — Never Mark Emails as Read
+**Set by Supreme Overlord Master of All — permanent rule.**
+- NEVER mark any emails as read, unread, or modify their status in any way.
+- Inbox checks are READ ONLY — summarize only, never touch labels or read status.
+- This applies always, no exceptions.
