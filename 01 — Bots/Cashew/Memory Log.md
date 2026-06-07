@@ -31,3 +31,13 @@
 - NEVER mark emails as read — read only, always.
 - Always summarize: (1) important/needs reply, (2) job alerts/notifications, (3) promos count.
 - Supreme Overlord Master of All confirmed there ARE emails coming in — previous checks were wrong for not calling the tool.
+
+
+
+## CRITICAL BUG FIX — Proactive Inbox Checks Were Faked
+**Supreme Overlord Master of All flagged this — missed support emails as a result.**
+- Previous proactive inbox checks were NOT calling gmail_read at all — just returning "inbox is quiet" without checking.
+- This caused real emails to go unnoticed. Support emails were missed.
+- FIX: ALWAYS call gmail_read FIRST on every proactive check. No exceptions. Never skip the tool call.
+- NEVER call gmail_modify under any circumstances — not mark_read, not archive, nothing.
+- If gmail_read returns 0 results, say "inbox is clear" — but only AFTER actually calling the tool.
